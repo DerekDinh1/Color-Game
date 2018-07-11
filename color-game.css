@@ -1,0 +1,79 @@
+body {
+	background-color: #232323;
+	margin: 0;
+	font-family: "Montserrat", "Avenir";
+}
+
+h1 {
+	font-size: 400%;
+}
+
+button {
+	color: #6B8E23;
+	border: none;
+	background-color: none;
+	text-transform: uppercase;
+	font-size: inherit;
+	font-weight: 700;
+	height: 100%;
+	outline: none;
+	transition: all 0.5s;
+	--webkit-transition: all 0.5s;
+	--moz-transition: all 0.5s;
+}
+
+button:hover {
+	color: white;
+	background-color: #6B8E23; 
+}
+
+#container {
+	margin: 20px auto;
+	max-width: 600px;
+}
+
+
+#stripe {
+	background-color: white;
+	height: 30px;
+	text-align: center;
+	color: black;
+}
+
+#colorDisplay {
+	color: #FAFAD2;
+	font-size: 150%;
+}
+
+#message {
+	display: inline-block;
+	width: 20%;
+}
+
+#headers {
+	color: white;
+	background-color: #6B8E23;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: normal;
+	line-height: 1.1;
+	margin: 0;
+	padding: 20px 0;
+}
+
+.square {
+	width: 30%;
+	background-color: purple;
+	padding-bottom: 30%;
+	float: left;
+	margin: 1.66%;
+	border-radius: 10%;
+	transition: background 0.5s;
+	--webkit-transition: background 0.5s;
+	--moz-transition: background 0.5s;
+}
+
+.selected {
+	color: white;
+	background-color: #6B8E23; 
+}
